@@ -56,7 +56,7 @@ User queries are embedded and matched against stored vectors to retrieve the mos
  - Answer Synthesis
 Retrieved segments are passed to the language model, which generates answers strictly grounded in document content.
 
-## 🤖 Models Used
+## Models Used
 
 ### 🔹 Large Language Model (LLM)
 - **Mistral 7B Instruct**
