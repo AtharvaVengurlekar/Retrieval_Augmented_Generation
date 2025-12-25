@@ -72,23 +72,35 @@ Retrieved segments are passed to the language model, which generates answers str
 | Minimum VRAM | 6 GB+ |
 | Inference Type | INT4 Quantized Inference |
 
-📊 Embedding Model Comparison
-Property	Instructor-XL	Sentence-Transformer (all-mpnet-base-v2)
-Parameters	1.3B	110M
-Embedding Dim	768	768
-GPU Required	Yes	No
-Speed	Slow	Fast
-Memory Usage	Very High	Low
-Offline Friendly	Limited	Yes
-Production Stability	Medium	High
-🧮 LLM GPU Memory Consumption
-Model	Params	FP16 / BF16	INT8	INT4
-Google T5-Large	0.77B	2–3 GB	1.5 GB	0.8–1 GB
-Google T5-XL	3B	6–8 GB	4 GB	2–2.5 GB
-LLaMA 3.2 3B Instruct	3B	6–7 GB	4 GB	2–2.5 GB
-Mistral 7B Instruct	7B	13–15 GB	8 GB	4–5 GB
-Qwen 7B Instruct	7B	13–15 GB	8 GB	4–5 GB
-⬇️ Downloading Models
+## Embedding Model Comparison:
+| Feature | Instructor-XL | all-mpnet-base-v2 |
+|--------|---------------|------------------|
+| Model Size | 1.3B parameters | 110M parameters |
+| Embedding Size | 768 | 768 |
+| GPU Dependency | Required | Not Required |
+| Inference Speed | Slow | Fast |
+| Memory Consumption | Very High | Low |
+| Offline Support | Limited | Full |
+| Production Readiness | Medium | High |
+
+## LLM GPU Memory Consumption
+> Approximate VRAM usage for **single-GPU inference**.  
+> Actual usage may vary based on framework, batch size, and context length.
+| Model | Parameters | FP16 / BF16 VRAM | INT8 VRAM | INT4 VRAM |
+|------|------------|------------------|-----------|-----------|
+| Google T5-Large | 0.77B | 2–3 GB | 1.5 GB | 0.8–1 GB |
+| Google T5-XL | 3B | 6–8 GB | 4 GB | 2–2.5 GB |
+| **Google T5-XXL** | **11B** | **22–24 GB** | **11–12 GB** | **6–7 GB** |
+| LLaMA 3.2 3B Instruct | 3B | 6–7 GB | 4 GB | 2–2.5 GB |
+| **LLaMA 3 8B Instruct** | **8B** | **14–16 GB** | **8–9 GB** | **4–5 GB** |
+| **LLaMA 3 70B Instruct** | **70B** | **140+ GB** | **70–80 GB** | **35–40 GB** |
+| Mistral 7B Instruct | 7B | 13–15 GB | 8 GB | 4–5 GB |
+| **Mixtral 8×7B (MoE)** | **46.7B (12.9B active)** | **28–32 GB** | **16–18 GB** | **8–10 GB** |
+| Qwen 7B Instruct | 7B | 13–15 GB | 8 GB | 4–5 GB |
+| **Qwen 14B Instruct** | **14B** | **28–30 GB** | **16 GB** | **8–9 GB** |
+| **Qwen 72B Instruct** | **72B** | **140+ GB** | **70–80 GB** | **35–40 GB** |
+
+## Downloading Models
 
 Download required models locally by running:
 
