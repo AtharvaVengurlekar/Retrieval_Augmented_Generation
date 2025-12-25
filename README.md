@@ -10,30 +10,30 @@
 5)Strict document-grounded responses
 
 # Setup Instructions
-1️⃣ Clone the Repository
+1️)Clone the Repository
+```bash
 git clone https://github.com/AtharvaVengurlekar/Retrieval_Augmented_Generation.git
 cd Retrieval_Augmented_Generation
-
-2️⃣ Create & Activate Conda Environment (Python 3.10.13)
+```
+2)Create & Activate Conda Environment (Python 3.10.13)
+```bash
 conda create -n rag_env python=3.10.13 -y
 conda activate rag_env
+```
 
-3️⃣ Install Dependencies
+3️)Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-📚 What is LangChain?
+## What is LangChain?
+1)LangChain is a framework for building applications powered by Large Language Models (LLMs). It provides abstractions to:
+2)Connect LLMs with external data sources (PDFs, databases, APIs)
+3)Manage prompts, memory, and execution chains
+4)Build Retrieval Augmented Generation (RAG) pipelines efficiently
+5)LangChain acts as the orchestration layer between your documents, embeddings, vector databases, and LLMs.
 
-LangChain is a framework for building applications powered by Large Language Models (LLMs). It provides abstractions to:
-
-Connect LLMs with external data sources (PDFs, databases, APIs)
-
-Manage prompts, memory, and execution chains
-
-Build Retrieval Augmented Generation (RAG) pipelines efficiently
-
-In short, LangChain acts as the orchestration layer between your documents, embeddings, vector databases, and LLMs.
-
-🧠 Architecture Overview
+## Architecture Overview
 
 📌 (Insert architecture diagram image here)
 
