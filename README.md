@@ -44,26 +44,25 @@ The application follows this pipeline:
  - Document Ingestion:
 Multiple PDF files are uploaded and their textual content is extracted.
 
-2️)Text Segmentation:
+ - Text Segmentation:
 Extracted text is split into smaller overlapping chunks to preserve context and improve retrieval accuracy.
 
-3️)Embedding Generation:
+ - Embedding Generation:
 Each text chunk is converted into a numerical vector using an embedding model.
 
-4️)Semantic Retrieval:
+ - Semantic Retrieval:
 User queries are embedded and matched against stored vectors to retrieve the most relevant document segments.
 
-5)Answer Synthesis
+ - Answer Synthesis
 Retrieved segments are passed to the language model, which generates answers strictly grounded in document content.
 
-## Models Used
-🔹 Large Language Model (LLM)
+## 🤖 Models Used
 
-## Mistral 7B Instruct
+### 🔹 Large Language Model (LLM)
+- **Mistral 7B Instruct**
 
-🔹 Embedding Model
-
-## Sentence-Transformer: all-mpnet-base-v2
+### 🔹 Embedding Model
+- **Sentence-Transformer: all-mpnet-base-v2**
 
 ## Minimum Hardware Requirements
 # Recommended
