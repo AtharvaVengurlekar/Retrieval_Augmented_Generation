@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ## Architecture Overview
 
-📌 (Insert architecture diagram image here)
+![LangChain_Architecture](https://github.com/user-attachments/assets/d9885981-aa63-4950-8b0f-d1a5f949e370)
 
 🔄 Application Workflow
 
