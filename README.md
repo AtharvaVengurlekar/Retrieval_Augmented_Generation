@@ -57,18 +57,20 @@ Retrieved segments are passed to the language model, which generates answers str
 ## Models Used
 🔹 Large Language Model (LLM)
 
-Mistral 7B Instruct
+## Mistral 7B Instruct
 
 🔹 Embedding Model
 
-Sentence-Transformer: all-mpnet-base-v2
+## Sentence-Transformer: all-mpnet-base-v2
 
-💻 Minimum Hardware Requirements
-✅ Recommended
+## Minimum Hardware Requirements
+# Recommended
 
-NVIDIA RTX GPU with 6 GB+ VRAM
-
-INT4 quantized inference for Mistral 7B or Qwen 7B
+| Component | Requirement |
+|---------|------------|
+| GPU | NVIDIA RTX GPU |
+| Minimum VRAM | 6 GB+ |
+| Inference Type | INT4 Quantized Inference |
 
 📊 Embedding Model Comparison
 Property	Instructor-XL	Sentence-Transformer (all-mpnet-base-v2)
