@@ -91,9 +91,16 @@ Retrieved segments are passed to the language model, which generates answers str
 |-------|------------|------------------|-----------|-----------|
 | Google T5-Large | 0.77B | 2–3 GB | 1.5 GB | 0.8–1 GB |
 | Google T5-XL | 3B | 6–8 GB | 4 GB | 2–2.5 GB |
+| Google T5-XXL | 11B | 22–24 GB | 11–12 GB | 6–7 GB |
 | LLaMA 3.2 3B Instruct | 3B | 6–7 GB | 4 GB | 2–2.5 GB |
+| LLaMA 3 8B Instruct | 8B | 14–16 GB | 8–9 GB | 4–5 GB |
+| LLaMA 3 70B Instruct | 70B | 140+ GB | 70–80 GB | 35–40 GB |
 | Mistral 7B Instruct | 7B | 13–15 GB | 8 GB | 4–5 GB |
+| Mixtral 8x7B (MoE) | 46.7B (12.9B active) | 28–32 GB | 16–18 GB | 8–10 GB |
 | Qwen 7B Instruct | 7B | 13–15 GB | 8 GB | 4–5 GB |
+| Qwen 14B Instruct | 14B | 28–30 GB | 16 GB | 8–9 GB |
+| Qwen 72B Instruct | 72B | 140+ GB | 70–80 GB | 35–40 GB |
+
 
 ## Downloading Models
 Download required models locally by running:
