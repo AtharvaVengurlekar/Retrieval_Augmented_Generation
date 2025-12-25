@@ -85,7 +85,7 @@ Retrieved segments are passed to the language model, which generates answers str
 
 ## LLM GPU Memory Consumption
 > Approximate VRAM usage for **single-GPU inference**.  
-> Actual usage may vary based on framework, batch size, and context length.
+> Actual usage may vary based on framework,GPU, batch size, and context length.
 
 | Model | Parameters | FP16 / BF16 VRAM | INT8 VRAM | INT4 VRAM |
 |-------|------------|------------------|-----------|-----------|
@@ -127,8 +127,11 @@ streamlit run main.py
 
 ## Usage Steps
 1)Upload one or more PDF documents
+
 2)Click Process PDFs
+
 3)Ask questions related to the uploaded content
+
 4)View answers grounded strictly in the PDFs
 
 ## Expected Output
