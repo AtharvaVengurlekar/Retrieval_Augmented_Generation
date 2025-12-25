@@ -96,40 +96,36 @@ Retrieved segments are passed to the language model, which generates answers str
 | Qwen 7B Instruct | 7B | 13–15 GB | 8 GB | 4–5 GB |
 
 ## Downloading Models
-
 Download required models locally by running:
-
+```bash
 python download.py
-
-🔐 Hugging Face Token (Required for Google T5 Models)
-
+```
+## Hugging Face Token (Required for Google T5 Models)
 Set your Hugging Face token as an environment variable:
 
-Windows
+Windows:
+```bash
 set HF_TOKEN=your_huggingface_token
-
+```
 Linux / macOS
+```bash
 export HF_TOKEN=your_huggingface_token
+```
 
-▶️ Running the Application
-
+## Running the Application
 Start the Streamlit app:
-
+```bash
 streamlit run main.py
+```
 
-🧪 Usage Steps
+## Usage Steps
+1)Upload one or more PDF documents
+2)Click Process PDFs
+3)Ask questions related to the uploaded content
+4)View answers grounded strictly in the PDFs
 
-Upload one or more PDF documents
-
-Click Process PDFs
-
-Ask questions related to the uploaded content
-
-View answers grounded strictly in the PDFs
-
-📌 Expected Output
-
-📌 (Insert expected output screenshot here)
+## Expected Output
+![mistral_output](https://github.com/user-attachments/assets/b3556cfd-5ae1-4963-a166-b880df84977a)
 
 📝 Notes
 
