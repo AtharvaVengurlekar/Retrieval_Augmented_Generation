@@ -107,7 +107,7 @@ Download required models locally by running:
 ```bash
 python download.py
 ```
-## Hugging Face Token (Required for Google T5 Models)
+### Hugging Face Token (Required for Google T5 Models)
 Set your Hugging Face token as an environment variable:
 
 Windows:
