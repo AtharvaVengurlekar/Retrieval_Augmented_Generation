@@ -27,13 +27,12 @@ pip install -r requirements.txt
 ```
 
 ## What is LangChain?
-1)LangChain is a framework for building applications powered by Large Language Models (LLMs). It provides abstractions to:
+LangChain is a framework for building applications powered by Large Language Models (LLMs). It provides abstractions to:
 
   - Connect LLMs with external data sources (PDFs, databases, APIs)
-2)Connect LLMs with external data sources (PDFs, databases, APIs)
-3)Manage prompts, memory, and execution chains
-4)Build Retrieval Augmented Generation (RAG) pipelines efficiently
-5)LangChain acts as the orchestration layer between your documents, embeddings, vector databases, and LLMs.
+  - Manage prompts, memory, and execution chains
+  - Build Retrieval Augmented Generation (RAG) pipelines efficiently
+LangChain acts as the orchestration layer between your documents, embeddings, vector databases, and LLMs.
 
 ## Architecture Overview
 
