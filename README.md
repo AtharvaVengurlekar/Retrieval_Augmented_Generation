@@ -31,7 +31,8 @@ LangChain is a framework for building applications powered by Large Language Mod
 
   - Connect LLMs with external data sources (PDFs, databases, APIs)
   - Manage prompts, memory, and execution chains
-  - Build Retrieval Augmented Generation (RAG) pipelines efficiently
+  - Build Retrieval Augmented Generation (RAG) pipelines efficiently.
+
 LangChain acts as the orchestration layer between your documents, embeddings, vector databases, and LLMs.
 
 ## Architecture Overview
