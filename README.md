@@ -127,18 +127,17 @@ streamlit run main.py
 ## Expected Output
 ![mistral_output](https://github.com/user-attachments/assets/b3556cfd-5ae1-4963-a166-b880df84977a)
 
-📝 Notes
+## Notes
+1) Designed for local inference
 
-Designed for local inference
+2) Optimized for INT4 quantized LLMs
 
-Optimized for INT4 quantized LLMs
+3) Responses are strictly restricted to provided document context
 
-Responses are strictly restricted to provided document context
+## Limitations
 
-⚠️ Limitations
+1) Answers are limited to the content of uploaded PDFs
 
-Answers are limited to the content of uploaded PDFs
+2) Large or complex documents may increase processing time
 
-Large or complex documents may increase processing time
-
-Answer quality depends on document clarity and structure
+3) Answer quality depends on document clarity and structure
