@@ -41,8 +41,7 @@ LangChain acts as the orchestration layer between your documents, embeddings, ve
 
 ## Application Workflow
 The application follows this pipeline:
- - Connect LLMs with external data sources (PDFs, databases, APIs)
-1)Document Ingestion:
+ - Document Ingestion:
 Multiple PDF files are uploaded and their textual content is extracted.
 
 2️)Text Segmentation:
