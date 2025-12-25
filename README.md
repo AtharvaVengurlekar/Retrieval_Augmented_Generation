@@ -37,31 +37,24 @@ pip install -r requirements.txt
 
 ![LangChain_Architecture](https://github.com/user-attachments/assets/d9885981-aa63-4950-8b0f-d1a5f949e370)
 
-🔄 Application Workflow
-
+## Application Workflow
 The application follows this pipeline:
-
-1️⃣ Document Ingestion
-
+1)Document Ingestion:
 Multiple PDF files are uploaded and their textual content is extracted.
 
-2️⃣ Text Segmentation
-
+2️)Text Segmentation:
 Extracted text is split into smaller overlapping chunks to preserve context and improve retrieval accuracy.
 
-3️⃣ Embedding Generation
-
+3️)Embedding Generation:
 Each text chunk is converted into a numerical vector using an embedding model.
 
-4️⃣ Semantic Retrieval
-
+4️)Semantic Retrieval:
 User queries are embedded and matched against stored vectors to retrieve the most relevant document segments.
 
-5️⃣ Answer Synthesis
-
+5)Answer Synthesis
 Retrieved segments are passed to the language model, which generates answers strictly grounded in document content.
 
-🤖 Models Used
+## Models Used
 🔹 Large Language Model (LLM)
 
 Mistral 7B Instruct
