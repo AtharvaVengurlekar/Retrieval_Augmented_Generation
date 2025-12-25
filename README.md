@@ -1,15 +1,15 @@
-## Retrieval Augmented Generation (RAG) – PDF Question Answering
+# Retrieval Augmented Generation (RAG) – PDF Question Answering
 1)This repository demonstrates a Retrieval Augmented Generation (RAG) pipeline built using LangChain, enabling users to upload multiple PDF documents and ask questions that are answered strictly based on the content of those PDFs.
 2)The system ensures no hallucinations by grounding responses only in retrieved document context.
 
-# Features
+## Features
 1)Upload and process multiple PDF documents
 2)Context-aware question answering
 3)Local inference (no external APIs required)
 4)Optimized for low VRAM GPUs using INT4 quantized LLMs
 5)Strict document-grounded responses
 
-# Setup Instructions
+## Setup Instructions
 1️)Clone the Repository
 ```bash
 git clone https://github.com/AtharvaVengurlekar/Retrieval_Augmented_Generation.git
